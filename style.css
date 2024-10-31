@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  font-family: "Afacad Flux", system-ui;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+.navegacao {
+    width: 120px;
+    background-color: #f8f9fa;
+    margin-left: 18px;
+    height: 700px;
+
+}
+
+.conteudo {
+    padding-left: 33px;
+    padding-top: 20px;
+    padding-right: 33px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 auto; 
+    font-size: 18px;
+    width: 1200px;
+}
+
+.col {
+    width: 100px;
+}
+
+.navconteudo {
+    display: flex;
+    background-color: #f8f9fa;
+    height: 100%;
+}
+
+.lh-base{
+    width: 100%;
+}
+
+.carrosel{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;  /* Redimensiona a imagem para preencher o espaço sem distorção */
+    border-radius: 8px;
+
+    
+    margin: 0 auto; /* Isso centraliza horizontalmente o bloco */
+}
+
+.minhafoto{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    justify-content: flex-end;
+}
+
+.bordaft{
+    border: 2px solid rgb(54, 162, 224);
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.boxperfil {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+
+
+.minhafotoMaior{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    justify-content: flex-end;
+}
+
+.bordaftMaior{
+    border: 2px solid rgb(54, 162, 224);
+    border-radius: 50%;
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.boxperfilMaior{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.cardsobremim{
+    width: 400px;
+}
+
+.card{
+   padding-left: 13px;
+   padding-right: 13px;
+   padding-top: 6px;
+   padding-left: 13px;
+   width: 500px;
+   font-size: 17px;
+}
+
+
+.logo-eduzz, .logo-Uno {
+    max-width: 400px; /* Defina o valor máximo de largura desejado */
+    max-height: 400px; /* Defina o valor máximo de altura desejado */
+    width: auto; /* Garante que a largura seja ajustada automaticamente para manter a proporção */
+    height: auto; /* Garante que a altura seja ajustada automaticamente para manter a proporção */
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 8px;
+  }
+
+  .card {
+    width: 18rem;
+    height: 450px;
+    float: left;
+    margin-right: 20px;
+}
+
+.imgp-tech_2{
+    border-radius: 7px;
+    display: block; /* Para garantir que a imagem se comporte corretamente */
+    margin: 0 auto;
+}
+
+
+.imgikigai{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;  /* Redimensiona a imagem para preencher o espaço sem distorção */
+    border-radius: 8px;
+    display: block; /* Para garantir que a imagem se comporte corretamente */
+    margin: 0 auto; /* Isso centraliza horizontalmente o bloco */
+
+}
+
+.floating-box {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.dataDireita{
+    float: right;
+    margin-right: 30px;
+    font-size: 18px;
+}
+
+.LinkedIn{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+
+.linkedin{
+    text-decoration: none;
+    margin-left: 7px;
+    color: black;
+}
+
+.LinkedIndiv{
+    margin-top: 25px;
+}
+
+.Anoindicacao{
+    color: rgb(31, 31, 31);
+    float: right;
+    margin-right: 30px;
+    text-decoration: none;
+   
+}
+
+.imgeduzz{
+    width: 700px;
+    height: 400px;
+    object-fit: cover;  /* Redimensiona a imagem para preencher o espaço sem distorção */
+    border-radius: 8px;
+    display: block; /* Para garantir que a imagem se comporte corretamente */
+    margin: 0 auto; /* Isso centraliza horizontalmente o bloco */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.EduzzMiniIcon{
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.UnoMiniIcon{
+        border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-left: 22px;
+    margin-right: 10px;
+
+}
+
+.ItixMiniIcon{
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.TegraMiniIcon{
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    justify-content: flex-end;
+    text-decoration: none;
+    margin-left: 13px;
+    margin-right: 10px;
+}
+
+.logo-Itix{
+        max-width: 600px; /* Defina o valor máximo de largura desejado */
+        max-height: 600px; /* Defina o valor máximo de altura desejado */
+        width: auto; /* Garante que a largura seja ajustada automaticamente para manter a proporção */
+        height: auto; /* Garante que a altura seja ajustada automaticamente para manter a proporção */
+        border-radius: 7px;
+        display: inline-block;
+        margin-top: 20px;
+}
+
+.img-Atividade{
+
+    object-fit: cover;  /* Redimensiona a imagem para preencher o espaço sem distorção */
+    border-radius: 8px;
+    display: block; /* Para garantir que a imagem se comporte corretamente */
+    margin: 0 auto; /* Isso centraliza horizontalmente o bloco */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.pdf-link {
+    color: blue; /* Cor do texto do link */
+    text-decoration: underline; /* Sublinhado */
+    cursor: pointer; /* Cursor de mão ao passar o mouse */
+}
+
+.faixaFundo{
+    width: 100px;
+    height: 90px;
+    background-color: aqua;
+}
